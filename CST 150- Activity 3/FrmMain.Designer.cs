@@ -65,11 +65,13 @@
             // lblResults
             // 
             lblResults.AutoSize = true;
-            lblResults.Location = new Point(380, 206);
+            lblResults.Font = new Font("Lucida Console", 12F);
+            lblResults.Location = new Point(59, 231);
             lblResults.Name = "lblResults";
-            lblResults.Size = new Size(38, 15);
+            lblResults.Size = new Size(67, 16);
             lblResults.TabIndex = 2;
             lblResults.Text = "label1";
+            lblResults.Click += lblResults_Click;
             // 
             // openFileDialog1
             // 
